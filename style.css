@@ -1,0 +1,437 @@
+html,
+body {
+    height: 100%;
+}
+#home {
+    background: none;
+    height: 100%;
+}
+
+section {
+    overflow: hidden;
+    padding: 40px 0;
+}
+.navbar {
+    padding: 35px 0 20px 0;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.site-nav-wrapper {
+    padding: 0 85px;
+}
+
+
+.navbar-brand img {
+    height: 25px;
+    width: 55px;
+}
+
+ul.navbar-nav > li > a {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+    background: none;
+    border-right: 3px solid #ff4f81;
+    border-left: 3px solid #ff4f81;
+    transition: 0.5 all;
+}
+
+.white-nav-top {
+    background: #fff;
+    padding: 10px 0;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}
+
+.white-nav-top ul.navbar-nav > li > a {
+    color: #212226;
+}
+
+.white-nav-top ul.navbar-nav > li > a:hover,
+.white-nav-top ul.navbar-nav > li > a:focus {
+    color: #ff4f81;
+}
+
+/*scroll spy active state*/
+.white-nav-top ul.navbar-nav > li.active > a {
+    color: #ff4f81;
+    font-weight: 500;
+}
+
+#home-overlay {
+    background-color: #212226;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#home-content {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#home-content-inner {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h1 {
+    font-family: "Niconne", cursive;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+
+}
+
+#home-heading h1 span {
+    color: #ff4f81;
+    font-weight: 500;
+}
+.btn-general {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 46px 12px 46px;
+    -webkit-transition: all 0.2s; 
+    transition: all 0.2s;   
+
+}
+.btn-home {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-home:hover{
+    background-color: #ff4f81;
+    border: 1px solid #ff4f81;
+}
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+}
+#arrow-down:hover,
+#arrow-down:focus {
+    color: #ff4f81;
+}
+#about{
+    background-color: azure;
+}
+.content-box-lg {
+    padding: 120px 0;
+}
+#about-right{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+#about p strong{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+#about-right p:first-child {
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+#qualifications{
+    background-color: azure;
+    padding: 10px;
+}
+#qualifications .container{
+    margin-top: -100px;
+}
+#qualifications h4{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+#qualifications h5.w3-opacity{
+    font-size: 18px;
+    padding: 10px;
+}
+#qualifications p{
+margin: 10px;
+    text-transform: capitalize;
+}
+#qualifications h5{
+    padding: 10px;
+    font-size: 18px;
+}
+#qualifications h6.w3-text-teal{
+    font-size: 18px;
+    padding: 10px;
+}
+#qualifications h6 i{
+    font-size: 18px;
+    padding: 10px 10px 10px 0px; 
+}
+
+
+.skill {
+    margin: 20px;
+    padding: 10px;
+}
+
+.skill h4 {
+    line-height: 62px;
+    margin: 0;
+    font-weight: normal;
+}
+.progress {
+    height: 20px;
+    border-radius: 0;
+    background: #efefef;
+    overflow: visible;
+}
+
+.progress-bar {
+    background: #ff4f81;
+    position: relative;
+}
+
+.progress-bar span {
+    font-size: 11px;
+    font-weight: 100;
+    font-family: "open sans", sans-serif;
+    background: #212226;
+    padding: 3px;
+    position: absolute;
+    left: 97%;
+    top: -47px;
+}
+
+.progress-bar span:before {
+    content: "";
+    border-top: 8px solid #212226;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 23%;
+}
+#portfolio .vertical-heading {
+    margin-bottom: 50px;
+    color: #ff4f81;
+}
+
+.row.no-gutters[class*=col-] {
+    padding: 0;
+}
+
+.portfolio-item {
+    overflow: hidden;
+    position: relative;
+
+}
+
+/*portfolio buttons*/
+#isotope-filters {
+    margin-bottom: 10px;
+    padding: 20px 25px 20px 0;
+}
+
+#isotope-filters-button {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-right: 35px;
+}
+
+#isotope-filters button span {
+    display: block;
+    padding-bottom: 5px;
+    -webkit-transition: border-color.4s ease-in-out;
+    transition: border-color.4s ease-in-out;
+}
+
+#isotope-filters button.active span {
+    color: black;
+    border-bottom: 3px solid #ff4f81;
+}
+
+.portfolio-item a img {
+    width: 350px;
+    height: 250px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    transition: transform .5s ease,
+        -webkit-transform .5s ease;
+}
+.portfolio-item:hover img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(14, 14, 17, 0.9);
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item-details {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.portfolio-item-details {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.portfolio-item-details h3 {
+    color: #ff4f81;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.portfolio-item-details span {
+   padding: 15px;
+    margin-bottom: 20px;
+}
+
+.portfolio-item-details p {
+    font-size: 17px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.portfolio-item:hover .portfolio-item-details h3 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+portfolio-item:hover .portfolio-item-details p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+    opacity: 1;
+}
+#contact{
+    background-color: azure;
+}
+#contact h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    transition: all linear 0.5s;
+    padding: 20px;
+}
+#contact h5{
+    font-size:20px;
+    margin: 10px;
+    padding: 10px;
+}
+.social-links{
+    padding: 20px;
+    margin: 30px;
+}
+.social-list{
+    list-style: none;
+    font-size: 28px;
+    padding: 10px;
+   
+}
+.form-container {
+    max-width: 300px;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+/* Full-width input fields */
+.form-container input[type=text],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+.form-container .message{
+    width: 280px;
+    height: 100px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #212226;
+    color: white;
+    padding:15px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    text-align: center;
+    text-transform: uppercase;
+}
